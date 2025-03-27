@@ -338,7 +338,7 @@ async def main():
     driver.implicitly_wait(10)
 
     try:
-        driver.get('https://www.bettilt504.com/pt/game/bac-bo/real')
+        driver.get('https://www.elephantbet.co.ao/pt/casino/slots/95/popular-games?openGames=420032042-real&gameNames=Bac%20Bo%20Ao%20Vivo')
         try:
             login_modal = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'modal-content')))
             username_field = login_modal.find_element(By.XPATH, '//input[@type="text" or @name="username"]')
